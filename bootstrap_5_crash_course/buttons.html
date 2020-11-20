@@ -278,12 +278,25 @@
         <hr>
         <h1>Spacing</h1>
 
-        <div style="width: 600px; margin: auto; border: 1px solid black;">
-            <p class="mt-xl-3">Paragraph 1</p>
+        <div class="p-5" style="width: 600px; margin: auto; border: 1px solid black;">
+            <p class="my-5">Paragraph 1</p>
             <p>Paragraph 2</p>
+
+            <div class="mx-auto" style="width: 200px; background-color: #eee">
+                centered element
+            </div>
         </div>
 
-       </div>
+        <!--    
+            0 - remove margin/paddings
+            1 - $spacer (1rem) * .25
+            2 - $spacer (1rem) * .5
+            3 - $spacer (1rem)
+            4 - $spacer (1rem) * 1.5
+            5 - $spacer (1rem) * 3  
+        -->
+
+    </div>
 
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="js/bootstrap.js"></script>
